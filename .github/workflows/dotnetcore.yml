@@ -20,6 +20,6 @@ jobs:
     - name: Install dependencies
       run: dotnet restore -p:Configuration=Release -p:Platform="Any CPU"
     - name: Build
-      run: dotnet build -p:Configuration=Release -p:Platform="Any CPU" --no-restore
+      run: msbuild -p:Configuration=Release -p:Platform="Any CPU" -m
     - name: Test
       run: dotnet test --no-restore --verbosity normal
