@@ -13,3 +13,15 @@ I'm not responsible of any damage this tool can make to your computer. Use it at
 2. Use `msbuild` to build the repoditory. If you use the `msbuild` that is included in .NET framework 4.8, you'll just to run `msbuild` to compile it. If you use Visual Studio's `msbuild` you'll need to run `msbuild /p:Configuration /p:Configuration=Release /p:Platform="Any CPU"` to build it.
 3. Check the bin\Debug or Release folder and search for Program Overflow executable.
 4. Done!!! Enjoy using Lumito's Program Overflow!
+
+## Downloading compiled source code:
+You can download compiled source code through [releases](https://github.com/LumitoLuma/ProgramOverflow/releases) or using my website [lumitoluma.github.io](https://lumitoluma.github.io)
+
+## Acknowledgements:
+Thanks a lot to Endermanch for making those amazing videos that helped me to learn mor about computing and for the first version of ProgramOverflow. You can visit his github in the next link [github.com/endermanch](https://github.com/endermanch), his youtube in this link [youtube.com/endermanch](https://www.youtube.com/endermanch) and download his ProgramOverflow [here](https://dl.malwat.ch/software/ProgramOverflow.zip) (Passowrd: mysubsarethebest).
+
+And for you for using my software!
+
+Hope you enjoy using it.
+
+#### © 2020, Lumito Luma
