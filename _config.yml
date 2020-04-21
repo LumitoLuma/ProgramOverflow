@@ -1,8 +1,1 @@
 theme: jekyll-theme-hacker
-highlighter: rogue
-favicon:
-  source: favicon.svg
-  path: /ProgramOverflow/
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
