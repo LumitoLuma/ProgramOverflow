@@ -3,7 +3,6 @@ Program Overflow is an utility that makes lots of copies of it to later run them
 I'm not responsible of any damage this tool can make to your computer. Use it at your own risk.
 
 ---
-
 Click [here](https://lumitoluma.github.io/ProgramOverflow#downloading-compiled-source-code) to download Program Overflow or scroll down to the button of this page.
 
 ---
