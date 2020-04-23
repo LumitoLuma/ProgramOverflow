@@ -191,7 +191,7 @@ This one runs the Form1.cs program.
 
 ## Building source code:
 1. `git clone` the repository or download it using download button.
-2. Use `msbuild` to build the repository. If you use the `msbuild` that is included in .NET framework 4.8, you'll just to run `msbuild` to compile it. If you use Visual Studio's `msbuild` you'll need to run `msbuild /p:Configuration=Release /p:Platform="Any CPU"` to build it.
+2. Use `msbuild` to build the repostory. If you use the `msbuild` that is included in .NET framework 4.0 or above, you'll just to run `msbuild` to compile it. If you use Visual Studio's `msbuild` you'll need to run `msbuild /p:Configuration=Release /p:Platform="Any CPU"` to build it.
 3. Check the bin\Debug or Release folder and search for Program Overflow executable.
 4. Done!!! Enjoy using Lumito's Program Overflow!
 
