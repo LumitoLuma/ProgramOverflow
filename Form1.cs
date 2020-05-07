@@ -1,4 +1,13 @@
-﻿using System.IO;
+/*
+ * Program Overflow 1.2 coded by Lumito.
+ * (C) 2020, Lumito.
+ * Please use this tool responsibly.
+ * I'm not responsible of any damage this tool can make to your PC.
+ * Website: lumitoluma.github.io
+ */
+
+using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace ProgramOverflow
@@ -139,6 +148,78 @@ namespace ProgramOverflow
             else
             {
                 x = 0;
+            }
+        }
+
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
+            string[] passedInArgs = Environment.GetCommandLineArgs();
+            int argnumber;
+            try
+            {
+                argnumber = int.Parse(passedInArgs[1]);
+                if(argnumber <= 999999)
+                {
+                    button1.Enabled = false;
+                    progressBar1.Value = 0;
+                    if (!Directory.Exists("C:\\ProgramOverflow"))
+                    {
+                        Directory.CreateDirectory("C:\\ProgramOverflow");
+                    }
+                    progressBar1.Maximum = argnumber * 100;
+                    ProgressBar1Value = progressBar1.Maximum / argnumber;
+                    for (i = 1; i <= argnumber; i++)
+                    {
+                        progressBar1.Value += ProgressBar1Value;
+                        string destinationFile = "C:\\ProgramOverflow\\Program" + i + ".exe";
+                        var process = System.Diagnostics.Process.GetCurrentProcess();
+                        string fullPath = process.MainModule.FileName;
+                        if (!File.Exists(destinationFile))
+                        {
+                            File.Copy(fullPath, destinationFile, true);
+                        }
+                        if (RunPrograms == 1)
+                        {
+                            System.Diagnostics.Process.Start(destinationFile);
+                        }
+                    }
+                    progressBar1.Value = progressBar1.Maximum;
+                    button1.Enabled = true;
+                    label1.Text = "Done!!!";
+                    MessageBox.Show("Copied " + argnumber.ToString() + " files correctly!");
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    MessageBox.Show("Please specify a number between 1 and 999999. 0 gives error");
+                    Environment.Exit(0);
+                }
+            }
+            catch
+            {
+                try{
+                    string argstring = passedInArgs[1];
+                    if (argstring == "Help" || argstring == "help" || argstring == "h" || argstring == "H"
+                    || argstring == "/Help" || argstring == "/help" || argstring == "/h" || argstring == "/H"
+                    || argstring == "-Help" || argstring == "-help" || argstring == "-h" || argstring == "-H"
+                    || argstring == "--Help" || argstring == "--help" || argstring == "--h" || argstring == "--H")
+                    {
+                        var progname = System.Diagnostics.Process.GetCurrentProcess();
+                        string programname = progname.ProcessName;
+                        MessageBox.Show("Usage:\n\n" +
+                                        "\"" + programname + ".exe [number of copies | /help]\"\n\n" +
+                                        "If you don't specify a number of copies, the program will run normally.\n\n" +
+                                        "If number of copies isn't a number the program will start normally unless it's /help\n\n" +
+                                        "The number of copies must be between 1 and 999999. 0 gives error.\n\n");
+
+                        Environment.Exit(0);
+                    }
+                }
+                catch
+                {
+                    // Starts the app normally
+                }
+                
             }
         }
     }
