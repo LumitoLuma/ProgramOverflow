@@ -191,7 +191,7 @@ namespace ProgramOverflow
                 }
                 else
                 {
-                    MessageBox.Show("Please specify a number between 1 and 999999. 0 gives error");
+                    MessageBox.Show("Please specify a number between 1 and 999999. 0 yields error");
                     Environment.Exit(0);
                 }
             }
