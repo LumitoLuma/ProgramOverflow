@@ -209,7 +209,8 @@ namespace ProgramOverflow
             }
             catch
             {
-                try{
+                try
+                {
                     string argstring = passedInArgs[1];
                     if (argstring == "Help" || argstring == "help" || argstring == "h" || argstring == "H"
                     || argstring == "/Help" || argstring == "/help" || argstring == "/h" || argstring == "/H"
