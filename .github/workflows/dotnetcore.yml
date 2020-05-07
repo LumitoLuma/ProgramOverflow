@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 3.1.101
     - name: Install dependencies
       run: dotnet restore -p:Configuration=Release -p:Platform="Any CPU"
-    - name: Build
+    - name: Building Program Overflow
       run: msbuild -p:Configuration=Release -p:Platform="Any CPU" -m
-    - name: Test
+    - name: Testing Program Overflow
       run: dotnet test --no-restore --verbosity normal
