@@ -7,7 +7,7 @@ Click [here](https://lumitoluma.github.io/ProgramOverflow#downloading-compiled-s
 
 ---
 
-![Program overflow image](https://lumitoluma.github.io/images/ProgramOverflow1.1.png)
+![Program overflow image](https://lumitoluma.github.io/images/ProgramOverflow1.2.png)
 
 ## Uses of this tool:
 1. Test your VM speed and durability.
@@ -18,6 +18,7 @@ Click [here](https://lumitoluma.github.io/ProgramOverflow#downloading-compiled-s
 This is the Form1.cs file, which is the most important one in this project:
 
 ```C#
+using System;
 using System.IO;
 using System.Windows.Forms;
 
@@ -42,7 +43,6 @@ namespace ProgramOverflow
 
         private void Button1_Click(object sender, System.EventArgs e)
         {
-            // Checks if directory exists and make variables
             button1.Enabled = false;
             progressBar1.Value = 0;
             string domainupdowntext = numericUpDown1.Text;
@@ -53,7 +53,7 @@ namespace ProgramOverflow
             }
             progressBar1.Maximum = NumberOfCopies * 100;
             ProgressBar1Value = progressBar1.Maximum / NumberOfCopies;
-            for (i = 1; i <= NumberOfCopies; i++) // Makes the copies
+            for (i = 1; i <= NumberOfCopies; i++)
             {
                 progressBar1.Value += ProgressBar1Value;
                 string destinationFile = "C:\\ProgramOverflow\\Program" + i + ".exe";
@@ -162,6 +162,78 @@ namespace ProgramOverflow
                 x = 0;
             }
         }
+
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
+            string[] passedInArgs = Environment.GetCommandLineArgs();
+            int argnumber;
+            try
+            {
+                argnumber = int.Parse(passedInArgs[1]);
+                if(argnumber <= 999999)
+                {
+                    button1.Enabled = false;
+                    progressBar1.Value = 0;
+                    if (!Directory.Exists("C:\\ProgramOverflow"))
+                    {
+                        Directory.CreateDirectory("C:\\ProgramOverflow");
+                    }
+                    progressBar1.Maximum = argnumber * 100;
+                    ProgressBar1Value = progressBar1.Maximum / argnumber;
+                    for (i = 1; i <= argnumber; i++)
+                    {
+                        progressBar1.Value += ProgressBar1Value;
+                        string destinationFile = "C:\\ProgramOverflow\\Program" + i + ".exe";
+                        var process = System.Diagnostics.Process.GetCurrentProcess();
+                        string fullPath = process.MainModule.FileName;
+                        if (!File.Exists(destinationFile))
+                        {
+                            File.Copy(fullPath, destinationFile, true);
+                        }
+                        if (RunPrograms == 1)
+                        {
+                            System.Diagnostics.Process.Start(destinationFile);
+                        }
+                    }
+                    progressBar1.Value = progressBar1.Maximum;
+                    button1.Enabled = true;
+                    label1.Text = "Done!!!";
+                    MessageBox.Show("Copied " + argnumber.ToString() + " files correctly!");
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    MessageBox.Show("Please specify a number between 1 and 999999. 0 gives error");
+                    Environment.Exit(0);
+                }
+            }
+            catch
+            {
+                try{
+                    string argstring = passedInArgs[1];
+                    if (argstring == "Help" || argstring == "help" || argstring == "h" || argstring == "H"
+                    || argstring == "/Help" || argstring == "/help" || argstring == "/h" || argstring == "/H"
+                    || argstring == "-Help" || argstring == "-help" || argstring == "-h" || argstring == "-H"
+                    || argstring == "--Help" || argstring == "--help" || argstring == "--h" || argstring == "--H")
+                    {
+                        var progname = System.Diagnostics.Process.GetCurrentProcess();
+                        string programname = progname.ProcessName;
+                        MessageBox.Show("Usage:\n\n" +
+                                        "\"" + programname + ".exe [number of copies | /help]\"\n\n" +
+                                        "If you don't specify a number of copies, the program will run normally.\n\n" +
+                                        "If number of copies isn't a number the program will start normally unless it's /help\n\n" +
+                                        "The number of copies must be between 1 and 999999. 0 gives error.\n\n");
+
+                        Environment.Exit(0);
+                    }
+                }
+                catch
+                {
+                    // Starts the app normally
+                }
+                
+            }
+        }
     }
 }
 ```
@@ -198,7 +270,7 @@ This one runs the Form1.cs program.
 ## Downloading compiled source code:
 You can download compiled source code here:
 
-[![Download Program Overflow](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/programoverflow/files/Binaries/ProgramOverflow1.1.exe/download)
+[![Download Program Overflow](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/programoverflow/files/Binaries/ProgramOverflow1.2.exe/download)
 
 ## Acknowledgements:
 Thanks a lot to Endermanch for making those amazing videos that helped me to learn more about computing and for the first version of ProgramOverflow. You can visit his github in the next link [github.com/endermanch](https://github.com/endermanch), his youtube in this link [youtube.com/endermanch](https://www.youtube.com/endermanch) and the download his ProgramOverflow [here](https://dl.malwat.ch/software/ProgramOverflow.zip) (Password: mysubsarethebest).
