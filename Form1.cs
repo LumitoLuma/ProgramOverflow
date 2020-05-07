@@ -211,7 +211,7 @@ namespace ProgramOverflow
                                         "\"" + programname + ".exe [number of copies | /help]\"\n\n" +
                                         "If you don't specify a number of copies, the program will run normally.\n\n" +
                                         "If number of copies isn't a number the program will start normally unless it's /help\n\n" +
-                                        "The number of copies must be between 1 and 999999. 0 gives error.\n\n");
+                                        "The number of copies must be between 1 and 999999. 0 yields error.\n\n");
 
                         Environment.Exit(0);
                     }
