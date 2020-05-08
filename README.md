@@ -263,6 +263,7 @@ namespace ProgramOverflow
 This one runs the Form1.cs program.
 
 ## Building source code:
+![.NET Framework](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework/badge.svg)
 1. `git clone` the repository or download it using download button.
 2. Use `msbuild` to build the repostory. If you use the `msbuild` that is included in .NET framework 4.0 or above, you'll just to run `msbuild` to compile it. If you use Visual Studio's `msbuild` you'll need to run `msbuild /p:Configuration=Release /p:Platform="Any CPU"` to build it.
 3. Check the bin\Debug or Release folder and search for Program Overflow executable.
