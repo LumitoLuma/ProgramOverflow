@@ -1,6 +1,6 @@
 /*
- * Program Overflow 1.2 coded by Lumito.
- * (C) 2020, Lumito.
+ * Program Overflow 1.2 coded by LumitoLuma.
+ * (C) 2020, LumitoLuma.
  * Please use this tool responsibly.
  * I'm not responsible of any damage this tool can make to your PC.
  * Website: lumitoluma.github.io
