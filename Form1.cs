@@ -186,12 +186,12 @@ namespace ProgramOverflow
                     progressBar1.Value = progressBar1.Maximum;
                     button1.Enabled = true;
                     label1.Text = "Done!!!";
-                    MessageBox.Show("Copied " + argnumber.ToString() + " files correctly!");
+                    MessageBox.Show("Copied " + argnumber.ToString() + " files correctly!", "Program Overflow");
                     Environment.Exit(0);
                 }
                 else
                 {
-                    MessageBox.Show("Please specify a number between 1 and 999999. 0 yields error");
+                    MessageBox.Show("Please specify a number between 1 and 999999. 0 yields error", "Program Overflow");
                     Environment.Exit(0);
                 }
             }
@@ -211,7 +211,7 @@ namespace ProgramOverflow
                                         "\"" + programname + ".exe [number of copies | /help]\"\n\n" +
                                         "If you don't specify a number of copies, the program will run normally.\n\n" +
                                         "If number of copies isn't a number the program will start normally unless it's /help\n\n" +
-                                        "The number of copies must be between 1 and 999999. 0 yields error.\n\n");
+                                        "The number of copies must be between 1 and 999999. 0 yields error.\n\n", "Program Overflow");
 
                         Environment.Exit(0);
                     }
