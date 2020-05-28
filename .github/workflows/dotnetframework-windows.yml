@@ -1,4 +1,4 @@
-name: .NET Framework
+name: .NET Framework for Windows
 
 on:
   push:
