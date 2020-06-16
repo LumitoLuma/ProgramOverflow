@@ -1,0 +1,17 @@
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\x86\KernelTraceControl.dll
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\x86\KernelTraceControl.Win61.dll
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\x86\msdia140.dll
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\amd64\KernelTraceControl.dll
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\amd64\msdia140.dll
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\TraceReloggerLib.dll
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\Dia2Lib.dll
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\OSExtensions.dll
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\ProgramOverflow2.0.exe.config
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\ProgramOverflow2.0.exe
+C:\Users\Lumito\Desktop\ProgramOverflow\bin\Release\ProgramOverflow2.0.pdb
+C:\Users\Lumito\Desktop\ProgramOverflow\obj\Release\ProgramOverflow.csprojResolveAssemblyReference.cache
+C:\Users\Lumito\Desktop\ProgramOverflow\obj\Release\ProgramOverflow.Form1.resources
+C:\Users\Lumito\Desktop\ProgramOverflow\obj\Release\ProgramOverflow.Properties.Resources.resources
+C:\Users\Lumito\Desktop\ProgramOverflow\obj\Release\ProgramOverflow.csproj.GenerateResource.Cache
+C:\Users\Lumito\Desktop\ProgramOverflow\obj\Release\ProgramOverflow2.0.exe
+C:\Users\Lumito\Desktop\ProgramOverflow\obj\Release\ProgramOverflow2.0.pdb
