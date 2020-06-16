@@ -25,4 +25,4 @@ And for you for using my software!
 
 Hope you enjoy using it.
 
-#### © 2020, Lumito
+#### © 2020, Lumito - [www.lumito.net](https://lumito.net)

@@ -1,4 +1,4 @@
-namespace ProgramOverflow
+﻿namespace ProgramOverflow
 {
     partial class Form1
     {
@@ -312,4 +312,9 @@ namespace ProgramOverflow
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button2;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> c8ad49fb890ef50e6609fe8dcd6d2a19507e0eb7
