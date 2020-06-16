@@ -1,4 +1,12 @@
-﻿using System;
+/*
+ * Program Overflow 2.0 coded by LumitoLuma.
+ * (C) 2020, LumitoLuma.
+ * Please use this tool responsibly.
+ * I'm not responsible of any damage this tool can make to your PC.
+ * Website: www.lumito.net
+ */
+
+using System;
 using System.IO;
 using System.Windows.Forms;
 
