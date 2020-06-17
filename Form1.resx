@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label3.Text" xml:space="preserve">
-    <value>Program Overflow 2.0 is a small program that creates lots of copies of it to the directory C:\ProgramOverflow, so you can later run them.
+    <value>Program Overflow 2.1 is a small program that creates lots of copies of it to the directory C:\ProgramOverflow, so you can later run them.
 The original version was developed by Endermanch (at YouTube). This version is developed by Lumito.
 </value>
   </data>

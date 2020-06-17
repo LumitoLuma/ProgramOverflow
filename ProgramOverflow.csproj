@@ -8,7 +8,7 @@
     <ProjectGuid>{CA761095-8BC2-447B-93A2-2DB38D0F2919}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ProgramOverflow</RootNamespace>
-    <AssemblyName>ProgramOverflow2</AssemblyName>
+    <AssemblyName>ProgramOverflow2.1</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
