@@ -1,4 +1,4 @@
-name: C++ MSBuild
+name: .NET Framework (Windows)
 
 on:
   push:
