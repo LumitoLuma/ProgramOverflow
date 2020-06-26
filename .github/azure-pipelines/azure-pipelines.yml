@@ -1,14 +1,28 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+jobs:
+- job: Windows
 
-steps:
+  pool: 'windows-latest'
 
-- task: MSBuild@1
-  inputs:
-    solution: 'ProgramOverflow.sln'
-    platform: 'Any CPU'
-    configuration: 'Release'
-    msbuildArguments: '/m'
+  steps:
+
+  - task: MSBuild@1
+    inputs:
+      solution: 'ProgramOverflow.sln'
+      platform: 'Any CPU'
+      configuration: 'Release'
+      msbuildArguments: '/m'
+
+- job: Ubuntu
+
+  pool: 'ubuntu-latest'
+  
+  steps:
+
+  - task: MSBuild@1
+    inputs:
+      solution: 'ProgramOverflow.sln'
+      platform: 'Any CPU'
+      configuration: 'Release'
