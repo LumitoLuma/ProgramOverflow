@@ -23,11 +23,6 @@ steps:
 
 - task: VSBuild@1
   inputs:
-    solution: '$(solution)'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
-- task: VSTest@2
-  inputs:
+    solution: '$(solution) /m'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
