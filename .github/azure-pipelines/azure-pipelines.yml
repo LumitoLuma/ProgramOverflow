@@ -9,11 +9,6 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 
-variables:
-  solution: 'ProgramOverflow.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
-
 steps:
 - task: NuGetToolInstaller@1
 
@@ -21,8 +16,9 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: VSBuild@1
+- task: MSBuild@1
   inputs:
-    solution: '$(solution)'
-    platform: '/m $(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    solution: 'ProgramOverflow.sln'
+    platform: 'Any CPU'
+    configuration: 'Release'
+    msbuildArguments: '/m'
