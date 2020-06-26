@@ -17,7 +17,7 @@ jobs:
 
 - job: Ubuntu
 
-  pool: 'ubuntu-latest'
+  pool: 'Ubuntu-latest'
   
   steps:
 
