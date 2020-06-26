@@ -264,7 +264,6 @@ This one runs the Form1.cs program.
 
 ## Building source code:
 [![.NET Framework (Mono)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Mono)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Mono%29%22) [![.NET Framework (Windows)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Windows)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Windows%29%22) [![Build status](https://ci.appveyor.com/api/projects/status/m84gruif65n8fbbp?svg=true)](https://ci.appveyor.com/project/LumitoLuma/ProgramOverflow) [![Build Status](https://dev.azure.com/LumitoLuma/GitHub/_apis/build/status/LumitoLuma.ProgramOverflow?branchName=master)](https://dev.azure.com/LumitoLuma/GitHub/_build/latest?definitionId=5&branchName=master)
-
 1. `git clone` the repository or download it using download button.
 2. Use `msbuild` to build the repostory. If you use the `msbuild` that is included in .NET framework 4.0 or above, you'll just to run `msbuild` to compile it. If you use Visual Studio's `msbuild` you'll need to run `msbuild /p:Configuration=Release /p:Platform="Any CPU"` to build it.
 3. Check the bin\Debug or Release folder and search for Program Overflow executable.
