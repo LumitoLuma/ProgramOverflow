@@ -11,4 +11,4 @@ steps:
     solution: 'ProgramOverflow.sln'
     platform: 'Any CPU'
     configuration: 'Release'
-    msbuildArguments: '/m'
+    maximumCpuCount: true
