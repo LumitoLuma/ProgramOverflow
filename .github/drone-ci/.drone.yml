@@ -1,0 +1,8 @@
+kind: pipeline
+name: Program Overflow
+
+steps:
+- name: Building with MSBuild
+  image: MSBuild
+  commands:
+  - msbuild /m /p:Configuration=Release /p:Platform="Any CPU"
