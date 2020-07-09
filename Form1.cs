@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace ProgramOverflow
 {
-    public class Form1 : Form
+    public partial class Form1 : Form
     {
         byte counterRipPc;
         byte counterRunPrograms;
