@@ -1,0 +1,10 @@
+language: csharp
+solution: ProgramOverflow.sln
+os: windows
+env:
+  - MSBUILD_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin"
+install:
+  - choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
+script:
+  - export PATH=$MSBUILD_PATH:$PATH
+  - MSBuild.exe ProgramOverflow.sln -m -p:Configuration=Release -p:Platform="Any CPU"
