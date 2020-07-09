@@ -9,6 +9,7 @@ I'm not responsible of any damage this tool can make to your computer. Use it at
 2. Destroy it!
 
 ## Building source code:
+### Build status:
 | Github Actions | AppVeyor | Azure Pipelines | Travis CI |
 |-|-|-|-|
 | [![.NET Framework (Windows)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Windows)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Windows%29%22) | [![Build status](https://ci.appveyor.com/api/projects/status/m84gruif65n8fbbp?svg=true)](https://ci.appveyor.com/project/LumitoLuma/ProgramOverflow) | [![Build Status](https://dev.azure.com/LumitoLuma/GitHub/_apis/build/status/LumitoLuma.ProgramOverflow?branchName=master)](https://dev.azure.com/LumitoLuma/GitHub/_build/latest?definitionId=5&branchName=master) | [![Build Status](https://travis-ci.com/LumitoLuma/ProgramOverflow.svg?branch=master)](https://travis-ci.com/LumitoLuma/ProgramOverflow) |
