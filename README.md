@@ -17,6 +17,20 @@ I'm not responsible of any damage this tool can make to your computer. Use it at
 ## Downloading compiled source code
 You can download compiled source code through my project website [lumitoluma.github.io/ProgramOverflow](https://lumitoluma.github.io/ProgramOverflow), through my website [www.lumito.net](https://lumito.net) or directly using my download server [dl.lumito.net/public/repos/ProgramOverflow](https://dl.lumito.net/public/repos/ProgramOverflow)
 
+## FAQ
+
+-   Is Program Overflow good for my computer?
+
+    ► Well... I would not enable the dangerous features on a real computer, but if you do not enable them, I think the program is safe. However, I am not responsible of any damage this tool can make to your computer.
+
+-   I have seen that the image of this text document has features that the program I download through releases does not have. How can I get them?
+
+    ► Currently are under development. You can always download the "latest latest" version of Program Overflow through my downloads website.
+
+-   How can I try this program safely?
+
+    ► You can try it safely in a virtual machine. A good free one is [VirtualBox](https://www.virtualbox.org) and the best (paid) one is [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
+
 ## Badges
 
 | Github Actions | AppVeyor | Azure Pipelines | Travis CI | Codacy |
