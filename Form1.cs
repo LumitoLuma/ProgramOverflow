@@ -249,7 +249,6 @@ namespace ProgramOverflow
             {
                 ischk = 0;
             }
-            
         }
 
         private void CheckBox1_CheckedChanged(object sender, EventArgs e)
@@ -408,7 +407,6 @@ namespace ProgramOverflow
                 {
                     CopyArg(argnumber);
                 }
-                
             }
             catch
             {
@@ -483,8 +481,7 @@ namespace ProgramOverflow
                 catch
                 {
                     // Starts the app normally
-                }
-                
+                }  
             }
         }
 
