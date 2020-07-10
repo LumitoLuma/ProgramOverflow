@@ -7,7 +7,7 @@ Click [here](#downloading-compiled-source-code) to download Program Overflow or 
 
 ---
 
-![Program overflow image](https://lumitoluma.github.io/images/ProgramOverflow1.2.png)
+![Program overflow image](https://images.lumito.net/GitHub/ProgramOverflow/2.1/ProgramOverflow2.1.png)
 
 ## Uses of this tool:
 1. Test your VM speed and durability.
