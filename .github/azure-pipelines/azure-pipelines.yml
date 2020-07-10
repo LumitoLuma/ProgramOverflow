@@ -12,9 +12,10 @@ steps:
     platform: 'Any CPU'
     configuration: 'Release'
     maximumCpuCount: true
-    
-- task: PublishBuildArtifacts@1
+
+- task: PublishPipelineArtifact@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)\s\bin\Release\'
-    ArtifactName: 'Program Overflow'
-    publishLocation: 'Container'
+    targetPath: '$(Pipeline.Workspace)\bin\Release\'
+    artifact: 'Program Overflow Release directory'
+    publishLocation: 'pipeline'
+  displayName: 'Publish Pipeline Artifacts'
