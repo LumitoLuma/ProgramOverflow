@@ -26,6 +26,20 @@ You can download compiled source code here:
 
 [![Download Program Overflow](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/programoverflow/files/Binaries/ProgramOverflow1.2.exe/download)
 
+## FAQ
+
+-   Is Program Overflow good for my computer?
+
+    ► Well... I would not enable the dangerous features on a real computer, but if you do not enable them, I think the program is safe. However, I am not responsible of any damage this tool can make to your computer.
+
+-   I have seen that the image of this text document has features that the program I download through releases does not have. How can I get them?
+
+    ► Currently are under development. You can always download the "latest latest" version of Program Overflow through my downloads website.
+
+-   How can I try this program safely?
+
+    ► You can try it safely in a virtual machine. A good free one is [VirtualBox](https://www.virtualbox.org) and the best (paid) one is [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
+
 ## Acknowledgements:
 Thanks a lot to Endermanch for making those amazing videos that helped me to learn more about computing and for the first version of ProgramOverflow. You can visit his github in the next link [github.com/endermanch](https://github.com/endermanch), his youtube in this link [youtube.com/endermanch](https://www.youtube.com/endermanch) and the download his ProgramOverflow [here](https://dl.malwat.ch/software/ProgramOverflow.zip) (Password: mysubsarethebest).
 
@@ -33,4 +47,4 @@ And for you for using my software!
 
 Hope you enjoy using it.
 
-#### © 2020, [Lumito](https://lumitoluma.github.io)
+**© 2020, [Lumito](https://lumitoluma.github.io)**
