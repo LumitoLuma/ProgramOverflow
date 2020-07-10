@@ -12,3 +12,9 @@ steps:
     platform: 'Any CPU'
     configuration: 'Release'
     maximumCpuCount: true
+    
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\bin\Release\'
+    ArtifactName: 'Program Overflow'
+    publishLocation: 'Container'
