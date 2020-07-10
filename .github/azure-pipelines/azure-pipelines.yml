@@ -15,7 +15,7 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)\bin\Release\'
+    targetPath: '$(Pipeline.Workspace)\s\bin\Release\'
     artifact: 'Program Overflow Release directory'
     publishLocation: 'pipeline'
   displayName: 'Publish Pipeline Artifacts'
