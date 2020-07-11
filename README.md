@@ -21,15 +21,15 @@ You can download compiled source code through my project website [lumitoluma.git
 
 -   Is Program Overflow good for my computer?
 
-    ► Well... I would not enable the dangerous features on a real computer, but if you do not enable them, I think the program is safe. However, I am not responsible of any damage this tool can make to your computer.
+    ► Well... I would not enable the dangerous features on a **real computer**, but if you do not enable them, I think the program is **safe**. However, I am not responsible of any damage this tool can make to your computer.
 
 -   I have seen that the image of this text document has features that the program I download through releases does not have. How can I get them?
 
-    ► Currently are under development. You can always download the "latest latest" version of Program Overflow through my downloads website.
+    ► Currently are **under development**. You can always download the "latest latest" version of Program Overflow **through my downloads website**.
 
 -   How can I try this program safely?
 
-    ► You can try it safely in a virtual machine. A good free one is [VirtualBox](https://www.virtualbox.org) and the best (paid) one is [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
+    ► You can try it safely using a **virtual machine**. A good free one is [VirtualBox](https://www.virtualbox.org), but the best (paid) is [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
 
 ## Badges
 
