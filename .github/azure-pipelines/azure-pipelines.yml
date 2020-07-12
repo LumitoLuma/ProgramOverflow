@@ -12,6 +12,7 @@ steps:
     platform: 'Any CPU'
     configuration: 'Release'
     maximumCpuCount: true
+  displayName: 'Building Program Overflow using MSBuild'
 
 - task: PublishPipelineArtifact@1
   inputs:
