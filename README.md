@@ -48,6 +48,16 @@ You can download compiled source code through my project website [lumitoluma.git
 | [![.NET Framework (Windows)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Windows)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Windows%29%22) | [![Build status](https://ci.appveyor.com/api/projects/status/m84gruif65n8fbbp?svg=true)](https://ci.appveyor.com/project/LumitoLuma/ProgramOverflow) | [![Build Status](https://dev.azure.com/LumitoLuma/GitHub/_apis/build/status/LumitoLuma.ProgramOverflow?branchName=master)](https://dev.azure.com/LumitoLuma/GitHub/_build/latest?definitionId=5&branchName=master) | [![Build Status](https://travis-ci.com/LumitoLuma/ProgramOverflow.svg?branch=master)](https://travis-ci.com/LumitoLuma/ProgramOverflow) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9d99250539b2443ba6009accda588d9a)](https://www.codacy.com/manual/LumitoLuma/ProgramOverflow?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LumitoLuma/ProgramOverflow&amp;utm_campaign=Badge_Grade) |
 | [![.NET Framework (Mono)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Mono)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Mono%29%22) |  |  |  |
 
+## Contributing to the project
+If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact).
+
+You can contribute with the following things:
+
+-   Code improvements
+-   Ideas for future programs / services.
+
+Reporting bugs there is not allowed, unless you have reported them through [Issues](https://github.com/LumitoLuma/ProgramOverflow/issues) tab and you have not received any comments for a while (minimum a week).
+
 ## Acknowledgements
 Thanks a lot to Endermanch for making those amazing videos that helped me to learn more about computing and for the first version of ProgramOverflow. You can visit his GitHub in the next link [github.com/endermanch](https://github.com/endermanch), his YouTube in this link [youtube.com/endermanch](https://www.youtube.com/endermanch) and the download his ProgramOverflow [here](https://dl.malwat.ch/software/ProgramOverflow.zip) (Password: mysubsarethebest).
 
