@@ -11,13 +11,13 @@ I'm not responsible of any damage this tool can make to your computer. Use it at
 ## Building source code
 1.  `git clone` the repository or download it using download button.
 2.  Use `MSBuild` to build the repository. If you use the `MSBuild` that is included in .NET framework 4.0 or above, you'll just to run:
-    
-    ```msbuild /m```
-    
+    ```
+    msbuild /m
+    ```
     to compile it. If you use Visual Studio's `MSBuild` you'll need to run:
-    
-    ```msbuild /m /p:Configuration=Release /p:Platform="Any CPU"```
-    
+    ```
+    msbuild /m /p:Configuration=Release /p:Platform="Any CPU"
+    ```
     to build it.
 3.  Check the bin\Debug or Release folder and search for Program Overflow executable.
 4.  Done!!! Enjoy using Lumito's Program Overflow!
