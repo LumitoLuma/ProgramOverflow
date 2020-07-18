@@ -1,7 +1,7 @@
 trigger:
 - master
 
-jobs
+jobs:
 - job: Windows
 
   pool:
