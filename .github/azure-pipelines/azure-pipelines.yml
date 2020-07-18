@@ -1,22 +1,24 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+jobs
+- job: Windows
 
-steps:
+  pool:
+    vmImage: 'windows-latest'
 
-- task: MSBuild@1
-  inputs:
-    solution: 'ProgramOverflow.sln'
-    platform: 'Any CPU'
-    configuration: 'Release'
-    maximumCpuCount: true
-  displayName: 'Building Program Overflow using MSBuild'
+  steps:
+  - task: MSBuild@1
+    inputs:
+      solution: 'ProgramOverflow.sln'
+      platform: 'Any CPU'
+      configuration: 'Release'
+      maximumCpuCount: true
+    displayName: 'Building Program Overflow using MSBuild'
 
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Pipeline.Workspace)\s\bin\Release\'
-    artifact: 'Program Overflow Release directory'
-    publishLocation: 'pipeline'
-  displayName: 'Publish Pipeline Artifacts'
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: '$(Pipeline.Workspace)\s\bin\Release\'
+      artifact: 'Program Overflow Release directory'
+      publishLocation: 'pipeline'
+    displayName: 'Publish Pipeline Artifacts'
