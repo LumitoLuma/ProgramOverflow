@@ -18,12 +18,12 @@ Click [here](#downloading-compiled-source-code) to download Program Overflow or 
 
 1.  `git clone` the repository or download it using download button.
 
-2.   Use `MSBuild` to build the repository. If you use the `MSBuild` that is included in .NET framework 4.0 or above, you'll just to run:
+2.  Use `MSBuild` to build the repository. You'll just to run:
 
     ```batch
     msbuild /m /p:Configuration=Release /p:Platform="Any CPU"
     ```
-    to compile ProgramOverflow.
+    to compile Program Overflow.
 
 3.  Check the bin\Debug or Release folder and search for Program Overflow executable.
 
