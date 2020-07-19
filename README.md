@@ -9,29 +9,31 @@ Click [here](#downloading-compiled-source-code) to download Program Overflow or 
 
 ![Program overflow image](https://images.lumito.net/GitHub/ProgramOverflow/2.1/ProgramOverflow2.1.png)
 
-## Uses of this tool:
-1. Test your VM speed and durability.
-2. Destroy it!
+## Uses of this tool
+1.  Test your VM speed and durability.
+2.  Destroy it!
 
 ## Building source code:
 [![.NET Framework (Windows)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Windows)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Windows%29%22) [![.NET Framework (Mono)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Mono)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Mono%29%22) [![Build status](https://ci.appveyor.com/api/projects/status/m84gruif65n8fbbp?svg=true)](https://ci.appveyor.com/project/LumitoLuma/ProgramOverflow) [![Build Status](https://dev.azure.com/LumitoLuma/GitHub/_apis/build/status/LumitoLuma.ProgramOverflow?branchName=master)](https://dev.azure.com/LumitoLuma/GitHub/_build/latest?definitionId=5&branchName=master) [![Build Status](https://travis-ci.com/LumitoLuma/ProgramOverflow.svg?branch=master)](https://travis-ci.com/LumitoLuma/ProgramOverflow) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9d99250539b2443ba6009accda588d9a)](https://www.codacy.com/manual/LumitoLuma/ProgramOverflow?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LumitoLuma/ProgramOverflow&amp;utm_campaign=Badge_Grade)
 
-1. `git clone` the repository or download it using download button.
-2.  Use `MSBuild` to build the repository. If you use the `MSBuild` that is included in .NET framework 4.0 or above, you'll just to run:
+1.  `git clone` the repository or download it using download button.
 
-    ```
+2.   Use `MSBuild` to build the repository. If you use the `MSBuild` that is included in .NET framework 4.0 or above, you'll just to run:
+
+    ```batch
     msbuild /m
     ```
     to compile it. If you use Visual Studio's `MSBuild` you'll need to run:
  
-    ```
+    ```batch
     msbuild /m /p:Configuration=Release /p:Platform="Any CPU"
     ```
     to build it.
-3. Check the bin\Debug or Release folder and search for Program Overflow executable.
-4. Done!!! Enjoy using Lumito's Program Overflow!
+3.  Check the bin\Debug or Release folder and search for Program Overflow executable.
 
-## Downloading compiled source code:
+4.  Done!!! Enjoy using Lumito's Program Overflow!
+
+## Downloading compiled source code
 You can download compiled source code here:
 
 [![Download Program Overflow](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/programoverflow/files/Binaries/ProgramOverflow1.2.exe/download)
@@ -60,7 +62,7 @@ You can contribute with the following things:
 
 Reporting bugs there is not allowed, unless you have reported them through [Issues](https://github.com/LumitoLuma/ProgramOverflow/issues) tab and you have not received any comments for a while (minimum a week).
 
-## Acknowledgements:
+## Acknowledgements
 Thanks a lot to Endermanch for making those amazing videos that helped me to learn more about computing and for the first version of ProgramOverflow. You can visit his github in the next link [github.com/endermanch](https://github.com/endermanch), his youtube in this link [youtube.com/endermanch](https://www.youtube.com/endermanch) and the download his ProgramOverflow [here](https://dl.malwat.ch/software/ProgramOverflow.zip) (Password: mysubsarethebest).
 
 And for you for using my software!
