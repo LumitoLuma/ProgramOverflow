@@ -21,14 +21,10 @@ Click [here](#downloading-compiled-source-code) to download Program Overflow or 
 2.   Use `MSBuild` to build the repository. If you use the `MSBuild` that is included in .NET framework 4.0 or above, you'll just to run:
 
     ```batch
-    msbuild /m
-    ```
-    to compile it. If you use Visual Studio's `MSBuild` you'll need to run:
- 
-    ```batch
     msbuild /m /p:Configuration=Release /p:Platform="Any CPU"
     ```
-    to build it.
+    to compile ProgramOverflow.
+
 3.  Check the bin\Debug or Release folder and search for Program Overflow executable.
 
 4.  Done!!! Enjoy using Lumito's Program Overflow!
