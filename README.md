@@ -46,14 +46,14 @@ You can download compiled source code through my project website [lumitoluma.git
 | [![.NET Framework (Mono)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Mono)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Mono%29%22) |  |  |  |
 
 ## Contributing to the project
-If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact).
+If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact) or open a Pull Request.
 
 You can contribute with the following things:
 
 -   Code improvements
 -   Ideas for future programs / services.
 
-Reporting bugs there is not allowed, unless you have reported them through [Issues](https://github.com/LumitoLuma/ProgramOverflow/issues) tab and you have not received any comments for a while (minimum a week).
+Reporting bugs at the contact form is not allowed, unless you have reported them through [Issues](https://github.com/LumitoLuma/ProgramOverflow/issues) tab and you have not received any comments for a while (minimum a week).
 
 ## Acknowledgements
 Thanks a lot to Endermanch for making those amazing videos that helped me to learn more about computing and for the first version of ProgramOverflow. You can visit his GitHub in the next link [github.com/endermanch](https://github.com/endermanch), his YouTube in this link [youtube.com/endermanch](https://www.youtube.com/endermanch) and the download his ProgramOverflow [here](https://dl.malwat.ch/software/ProgramOverflow.zip) (Password: mysubsarethebest).
