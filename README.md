@@ -14,7 +14,7 @@ I'm not responsible of any damage this tool can make to your computer. Use it at
 2.  Use `MSBuild` to build the repository. You'll just to run:
 
     ```batch
-    msbuild /m /p:Configuration=Release /p:Platform="Any CPU"
+    msbuild.exe ProgramOverflow.sln /m /p:Configuration=Release /p:Platform="Any CPU"
     ```
     to compile Program Overflow.
 3.  Check the bin\Debug or Release folder and search for Program Overflow executable.
