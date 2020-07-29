@@ -61,5 +61,5 @@ Thanks a lot to Endermanch for making those amazing videos that helped me to lea
 And for you for using my software!
 
 Hope you enjoy using it.
-
+<br><br>
 **© 2020, Lumito - [www.lumito.net](https://lumito.net)**
