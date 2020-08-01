@@ -1,4 +1,4 @@
-/*
+/**
  * Program Overflow 2.1 coded by Lumito.
  * (C) 2020, Lumito Luma.
  * Please use this tool responsibly.
@@ -428,14 +428,14 @@ namespace ProgramOverflow
                                     DirectoryInfo podir = new DirectoryInfo("C:\\ProgramOverflow");
                                     foreach (FileInfo file in podir.EnumerateFiles())
                                     {
-                                        file.Delete(); //Deletes all the files in C:\ProgramOverflow directory
+                                        file.Delete(); // Deletes all the files in C:\ProgramOverflow directory
                                     }
                                     foreach (DirectoryInfo dir in podir.EnumerateDirectories())
                                     {
-                                        dir.Delete(true); //Deletes all the directories in C:\ProgramOverflow directory
+                                        dir.Delete(true); // Deletes all the directories in C:\ProgramOverflow directory
                                     }
-                                    podir.Delete(); //Deletes C:\ProgramOverflow directory
-                                    Environment.Exit(0); //Exits the program
+                                    podir.Delete(); // Deletes C:\ProgramOverflow directory
+                                    Environment.Exit(0); // Exits the program
                                 }
                                 else
                                 {
