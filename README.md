@@ -41,9 +41,9 @@ You can download compiled source code through my project website [lumitoluma.git
 ## Badges
 
 | Github Actions | AppVeyor | Azure Pipelines | Travis CI | Codacy |
-|-|-|-|-|-|
+|:-:|:-:|:-:|:-:|:-:|
 | [![.NET Framework (Windows)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Windows)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Windows%29%22) | [![Build status](https://ci.appveyor.com/api/projects/status/m84gruif65n8fbbp?svg=true)](https://ci.appveyor.com/project/LumitoLuma/ProgramOverflow) | [![Build Status](https://dev.azure.com/LumitoLuma/GitHub/_apis/build/status/LumitoLuma.ProgramOverflow?branchName=master)](https://dev.azure.com/LumitoLuma/GitHub/_build/latest?definitionId=5&branchName=master) | [![Build Status](https://travis-ci.com/LumitoLuma/ProgramOverflow.svg?branch=master)](https://travis-ci.com/LumitoLuma/ProgramOverflow) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9d99250539b2443ba6009accda588d9a)](https://www.codacy.com/manual/LumitoLuma/ProgramOverflow?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LumitoLuma/ProgramOverflow&amp;utm_campaign=Badge_Grade) |
-| [![.NET Framework (Mono)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Mono)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Mono%29%22) |  |  |  |
+| [![.NET Framework (Mono)](https://github.com/LumitoLuma/ProgramOverflow/workflows/.NET%20Framework%20(Mono)/badge.svg)](https://github.com/LumitoLuma/ProgramOverflow/actions?query=workflow%3A%22.NET+Framework+%28Mono%29%22) | **----------** | **----------** | **----------** | **----------** |
 
 ## Contributing to the project
 If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact) or open a Pull Request.
