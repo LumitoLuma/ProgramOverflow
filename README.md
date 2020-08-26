@@ -35,18 +35,21 @@ You can download compiled source code here:
 [![Download Program Overflow](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/programoverflow/files/Binaries/ProgramOverflow1.2.exe/download)
 
 ## FAQ
+<details>
+  <summary><b>Is Program Overflow good for my computer?</b></summary>
 
--   Is Program Overflow good for my computer?
+  Well... I would not enable the dangerous features on a **real computer**, but if you do not enable them, I think the program is **safe**. However, I am not responsible of any damage this tool can make to your computer.
+</details>
+<details>
+  <summary><b>I have seen that the image of this text document has features that the program I download through releases does not have. How can I get them?</b></summary>
 
-    ► Well... I would not enable the dangerous features on a real computer, but if you do not enable them, I think the program is safe. However, I am not responsible of any damage this tool can make to your computer.
+  Currently are **under development**. You can always download the "latest latest" version of Program Overflow **through my downloads website**.
+</details>
+<details>
+  <summary><b>How can I try this program safely?</b></summary>
 
--   I have seen that the image of this text document has features that the program I download through releases does not have. How can I get them?
-
-    ► Currently are under development. You can always download the "latest latest" version of Program Overflow through my downloads website.
-
--   How can I try this program safely?
-
-    ► You can try it safely in a virtual machine. A good free one is [VirtualBox](https://www.virtualbox.org) and the best (paid) one is [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
+  You can try it safely using a **virtual machine**. A good free one is [VirtualBox](https://www.virtualbox.org), but the best (paid) is [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html).
+</details>
 
 ## Contributing to the project
 If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact) or open a Pull Request.
@@ -64,5 +67,5 @@ Thanks a lot to Endermanch for making those amazing videos that helped me to lea
 And for you for using my software!
 
 Hope you enjoy using it.
-
+<br><br>
 **© 2020, [Lumito](https://gh-pages.lumito.net) - [www.lumito.net](https://lumito.net)**
