@@ -9,4 +9,6 @@ jobs:
 
     steps:
       - checkout
-      - run: msbuild ProgramOverflow.sln /m /p:Configuration=Release /p:Platform="Any CPU"
+      - run:
+          name: Building Program Overflow using MSBuild
+          command: msbuild ProgramOverflow.sln /m /p:Configuration=Release /p:Platform="Any CPU"
