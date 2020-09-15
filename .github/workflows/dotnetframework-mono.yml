@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Building Program Overflow
-      run: msbuild -p:Configuration=Release -p:Platform="Any CPU"
+      run: msbuild -m -p:Configuration=Release -p:Platform="Any CPU"
