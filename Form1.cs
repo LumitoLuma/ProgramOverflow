@@ -14,14 +14,9 @@ namespace ProgramOverflow
 {
     public partial class Form1 : Form
     {
-        byte counterRipPc;
-        byte counterRunPrograms;
-        byte ischk;
-        byte ischk2;
-        byte RunPrograms;
+        byte counterRipPc, counterRunPrograms, ischk, ischk2, RunPrograms;
         short x;
-        int i;
-        int ProgressBar1Value;
+        int i, ProgressBar1Value;
 
         public void CopyFiles()
         {
@@ -227,7 +222,7 @@ namespace ProgramOverflow
 
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            if(ischk == 0)
+            if (ischk == 0)
             {
                 string msg = "Are you sure that you want to enable this feature?";
                 string titlemsg = "Program Overflow 2.1";
@@ -308,7 +303,7 @@ namespace ProgramOverflow
 
         private void Label7_Click(object sender, EventArgs e)
         {
-            if(counterRipPc == 1 && x == 0)
+            if (counterRipPc == 1 && x == 0)
             {
                 x = 1;
             }
