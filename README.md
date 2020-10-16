@@ -34,6 +34,11 @@ You can download compiled source code here:
 
 [![Download Program Overflow](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/programoverflow/files/Binaries/ProgramOverflow1.2.exe/download)
 
+**Development builds:**
+You can download the latest development builds through this link: [ci.appveyor.com/project/LumitoLuma/ProgramOverflow/build/artifacts](https://ci.appveyor.com/project/LumitoLuma/ProgramOverflow/build/artifacts)
+
+This are highly experimental builds, so I recommend that you do not try them.
+
 ## FAQ
 <details>
   <summary><b>Is Program Overflow good for my computer?</b></summary>
