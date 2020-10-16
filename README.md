@@ -25,6 +25,11 @@ I'm not responsible of any damage this tool can make to your computer. Use it at
 ## Downloading compiled source code
 You can download compiled source code through my project website [lumitoluma.github.io/ProgramOverflow](https://lumitoluma.github.io/ProgramOverflow), via my website [www.lumito.net](https://lumito.net) or directly using my download server [dl.lumito.net/?dir=public/repos/ProgramOverflow](https://dl.lumito.net/?dir=public/repos/ProgramOverflow)
 
+**Development builds:**
+You can download the latest development builds through this link: [ci.appveyor.com/project/LumitoLuma/ProgramOverflow/build/artifacts](https://ci.appveyor.com/project/LumitoLuma/ProgramOverflow/build/artifacts)
+
+This are highly experimental builds, so I recommend that you do not try them.
+
 ## FAQ
 
 <details>
