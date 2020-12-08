@@ -23,7 +23,7 @@ I'm not responsible of any damage this tool can make to your computer. Use it at
 4.  Done!!! Enjoy using Lumito's Program Overflow!
 
 ## Downloading compiled source code
-You can download compiled source code through my project website [lumitoluma.github.io/ProgramOverflow](https://lumitoluma.github.io/ProgramOverflow), via my website [www.lumito.net](https://lumito.net) or directly using my download server [dl.lumito.net/?dir=public/repos/ProgramOverflow](https://dl.lumito.net/?dir=public/repos/ProgramOverflow)
+You can download compiled source code through my project website: [lumitoluma.github.io/ProgramOverflow](https://lumitoluma.github.io/ProgramOverflow), via my website: [www.lumito.net](https://www.lumito.net) or directly using my download server: [dl.lumito.net/?dir=public/repos/ProgramOverflow](https://dl.lumito.net/?dir=public/repos/ProgramOverflow)
 
 **Development builds:**
 You can download the latest development builds through this link: [ci.appveyor.com/project/LumitoLuma/ProgramOverflow/build/artifacts](https://ci.appveyor.com/project/LumitoLuma/ProgramOverflow/build/artifacts)
@@ -66,10 +66,10 @@ You can contribute with the following things:
 Reporting bugs at the contact form is not allowed, unless you have reported them through [Issues](https://github.com/LumitoLuma/ProgramOverflow/issues) tab and you have not received any comments for a while (minimum a week).
 
 ## Acknowledgements
-Thanks a lot to Endermanch for making those amazing videos that helped me to learn more about computing and for the first version of ProgramOverflow. You can visit his GitHub in the next link [github.com/endermanch](https://github.com/endermanch), his YouTube in this link [youtube.com/endermanch](https://www.youtube.com/endermanch) and the download his ProgramOverflow [here](https://dl.malwat.ch/software/ProgramOverflow.zip) (Password: mysubsarethebest).
+Thanks a lot to Endermanch for making those amazing videos that helped me to learn more about computing and for the first version of ProgramOverflow. You can visit his GitHub in the next link: [github.com/endermanch](https://github.com/endermanch) and download his ProgramOverflow [here](https://dl.malwat.ch/software/ProgramOverflow.zip) (Password: mysubsarethebest).
 
 And for you for using my software!
 
 Hope you enjoy using it.
 <br><br>
-**© 2020, Lumito - [www.lumito.net](https://lumito.net)**
+**© 2020, Lumito - [www.lumito.net](https://www.lumito.net)**
